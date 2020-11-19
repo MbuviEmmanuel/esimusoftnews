@@ -71,7 +71,7 @@ class CategoryTile extends StatelessWidget {
         children: [
           ClipRRect(
             borderRadius: BorderRadius.circular(6),
-              child: Image.network(imageUrl, height: 120, width: 60, fit:BoxFit.cover,),
+              child: Image.network(imageUrl, width: 120, height: 60, fit:BoxFit.cover,),
           ),
 
           Container(
@@ -83,7 +83,7 @@ class CategoryTile extends StatelessWidget {
             ),
 
             child: Text(categoryName,style: TextStyle(
-              color: Colors.green,
+              color: Colors.white,
               fontSize: 14,
               fontWeight: FontWeight.w500,
             ),),
